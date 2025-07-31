@@ -87,6 +87,20 @@ for i in range(1,n+1):
     print()
 
 
+n=4
+for i in range(n):
+    for j in range(n):
+        if j < i:
+            print(" ",end=" ")
+        else:
+            print(j+1,end=" ")
+    print()
+
+#o/p== 1 2 3 4
+#        2 3 4 
+#          3 4 
+#            4 
+
 
 
 
