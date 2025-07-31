@@ -77,7 +77,7 @@ for i in range(rows):
 
     
 
-#Right-angle triangle with num.
+#down_Right-angle triangle with num.
 n=4
 num = 1
 for i in range(1,n+1):
@@ -86,7 +86,7 @@ for i in range(1,n+1):
         num+=1
     print()
 
-
+#up_Right-angle triangle with num.
 n=4
 for i in range(n):
     for j in range(n):
@@ -102,6 +102,16 @@ for i in range(n):
 #            4 
 
 
+#down_Right-angle triangle with num.
+
+n=4
+for i in range(n):
+    for j in range(n):
+        if j < i+1:
+            print(j+1,end=" ")
+        else:
+            print(" ",end=" ")
+    print()
 
 
 
