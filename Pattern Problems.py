@@ -77,7 +77,7 @@ for i in range(rows):
 
     
 
-#triangle with num.
+#Right-angle triangle with num.
 n=4
 num = 1
 for i in range(1,n+1):
